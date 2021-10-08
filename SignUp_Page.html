@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Vaccination Appointments </title>
+        <meta name = "viewport" content="width=device-width", intial-scale=1.0>
+        <link rel="stylesheet" href="SignUpCSS.css">
+        <link rel="stylesheet" type="text/css" href="css/SignUpCSS.css">
+
+    </head>
+<body>
+
+    <div>
+        <nav>
+            <div id="uwilogo"><img src="uwi.jpg" ALIGN="left"alt="uwilogo"></div>
+            <label class="logo">UWI STA Vaccination Drive</label>
+            <ul>
+                <li><a class="menu1" href="#">Book An Appointment</a></li>
+                <li><a href="#">Appointment Cancellation</a></li>
+                <li><a href="#">Appointment Search</a></li>
+                <li><a href="#">Contact Us/About</a></li>
+            </ul>
+            
+        </nav>
+        <h1>
+            "Create your Patient Access Account
+            Already have an account?  Sign in to Patient Access"
+        </h1>
+        <div class="container">
+        <form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Full Name" name="Name" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+    <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>    
+        </div>
+    </div>
+</body>
+</html>
