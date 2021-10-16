@@ -37,7 +37,7 @@ form{
     margin-bottom:15px;
     padding-left:15px;
     font-size:15px;
-    width:420px;
+    width:350px;
     height:25px;
     box-shadow:0 0 5px;
 }
@@ -62,5 +62,8 @@ form{
     color:rgb(0, 0, 0);
 }
 
-
+select
+{
+    width:350px;
+}
 
