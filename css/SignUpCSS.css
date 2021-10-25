@@ -1,0 +1,191 @@
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  label[for="name"] 
+ {
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 556px;
+    top: 440px;
+ }
+ input[name="Name"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 556px;
+    top: 460px;
+  }
+  label[for="email"] 
+ {
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 556px;
+    top: 510px;
+ }
+  input[name="email"]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 556px;
+    top: 530px;
+  }
+  label[for=psw] 
+ {
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 556px;
+    top: 580px;
+ }
+  input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 556px;
+    top: 600px;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  } 
+  button {
+    background-color: white;
+    color: grey;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 556px;
+
+  }
+  button.cancelbtn
+  {
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    top: 660px;
+  }
+  button.signupbtn
+  {
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    top: 720px;
+  }
+   
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color:#BCD3FF;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#BCD3FF;
+}
+#uwilogo{
+    height:auto;
+    width:auto;
+    float: left;
+    margin: 0 auto; 
+    padding: 10px 10px;
+} 
+#uwilogo img{
+    object-fit:cover;
+    left: 23px;
+    top: 22px;
+    width: 130px;
+    height: 203px;
+}
+
+nav{   
+    min-height:280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#BCD3FF;
+    overflow:hidden;
+    position: absolute;
+    width: 1240px;
+    height: 592px;
+}
+label.logo
+{
+    color: white;
+    font-size: 26px;
+    line-height: 50px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-transform:uppercase;
+    background:darkcyan;
+}
+nav ul{
+    float: center;
+
+    
+       
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0px 10px;
+    
+}
+nav ul li a {
+    color: black;
+    font-size: 18px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    text-transform:capitalize;
+    background: #E0EAFD;
+    transition: .1s; 
+
+}
+h1{
+    position: absolute;
+    width: 470px;
+    height: 60px;
+    left: 420px;
+    top: 292px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+a:hover {
+    background-color:white;
+}
+
