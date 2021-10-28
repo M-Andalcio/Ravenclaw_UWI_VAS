@@ -30,6 +30,17 @@ form{
     border-radius:40px 0px 40px 0px;
     box-shadow:0 0 10px;
 }
+input[name="DOV"]
+{
+    border:1px solid #DADADA;
+    margin-top:10px;
+    margin-bottom:15px;
+    padding-left:15px;
+    font-size:15px;
+    width:350px;
+    height:25px;
+    box-shadow:0 0 5px;
+}
 
 #form{
     border:1px solid #DADADA;
