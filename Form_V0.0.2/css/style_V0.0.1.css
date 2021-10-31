@@ -9,7 +9,7 @@ h1{
     text-align:center;
     width:30%;
     height:auto;
-    margin:10px auto;
+    margin:50px auto;
     padding:10px 1px;
     background-color:rgb(218, 245, 212);
     border:2px solid #000102;
@@ -23,13 +23,14 @@ form{
     font-weight:600;
     width:30%;
     height:auto;
-    margin:20px auto;
+    margin:80px auto;
     padding:40px;
     background-color:rgb(218, 245, 212);
     border:2px solid #000102;
     border-radius:40px 0px 40px 0px;
     box-shadow:0 0 10px;
 }
+
 input[name="DOV"]
 {
     border:1px solid #DADADA;
@@ -66,6 +67,7 @@ input[name="DOV"]
     color:rgb(255, 255, 255);
     margin-left:180px;
     font-weight:700;
+    
 }
 
 #submit:hover{
