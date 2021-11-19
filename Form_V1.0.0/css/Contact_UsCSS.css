@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#BCD3FF;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#maincontent{
+    position: absolute;
+    width: 1243px;
+    height: 592px;
+    top: 500px;
+}
+
+#uwilogo{
+    height:auto;
+    width:auto;
+    float: left;
+    margin: 0 auto; 
+    padding: 10px 10px;
+} 
+#uwilogo img{
+    object-fit:cover;
+    left: 200px;
+    top: 500px;
+    width: 130px;
+    height: 203px;
+}
+
+.Nav_Bar{   
+    min-height:280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#BCD3FF;
+    overflow: hidden;
+    position: absolute;
+    width: 1240px;
+    height: 592px;
+}
+label.logo
+{
+    color: white;
+    font-size: 26px;
+    line-height: 50px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-transform:uppercase;
+    background:darkcyan;
+}
+nav ul{
+    float: center;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0px 10px;
+    
+}
+nav ul li a {
+    color: black;
+    font-size: 18px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    text-transform:capitalize;
+    background: #E0EAFD;
+    transition: .1s; 
+}
+
+a:hover {
+    background-color:white;
+    border-radius: 5px;
+    padding: 8px 8px;
+    color:darkcyan;
+}
+a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+a{
+
+    color: white;
+  }
