@@ -1,0 +1,64 @@
+table {
+    border-collapse: collapse;
+    background-color:rgb(182, 236, 182);
+  }
+
+
+  html {
+    font-family: helvetica, arial, sans-serif;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  body > div {
+    text-decoration: none;
+    background-color:rgb(182, 236, 182);
+  }
+
+  table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width:400px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:600;
+    text-align:center;
+    border:2px solid #000102;
+    
+  }
+  body 
+  {
+    background-color:rgb(182, 236, 182);
+  }
+  select
+{
+  border:1px solid #DADADA;
+  margin-top:10px;
+  margin-bottom:15px;
+  padding-left:15px;
+  font-size:15px;
+    width:350px;
+}
+input[name="DOV"]
+{
+    border:1px solid #DADADA;
+    margin-top:10px;
+    margin-bottom:15px;
+    padding-left:15px;
+    font-size:15px;
+    width:350px;
+    height:25px;
+}

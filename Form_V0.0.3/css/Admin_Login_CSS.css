@@ -1,0 +1,196 @@
+h1{
+  position: absolute;
+  left: 556px;
+  top: 150px;
+  color:black;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 556px;
+    top: 200px;
+
+  }
+  /* Full-width inputs */
+  input[type=password]{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    /*border: 1px solid #ccc;*/
+    box-sizing: border-box;    
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    position: absolute;
+    height: 48px;
+    left: 556px;
+    top: 260px;
+  }
+  
+  /* Set a style for all buttons */
+ 
+   /* Extra style for the cancel button (red) */
+  button.cancelbtn
+  {
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    top: 405px;
+    padding: 10px 18px;
+    background-color: #f44336;
+    left: 556px;
+    border-radius: 5px;
+    font-size: 26px;
+    line-height: 50px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .button
+  {
+    box-sizing: border-box;
+    color: white;
+    padding: 10px 18px;
+    background-color: #04AA6D;
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    top: 320px;
+    left: 556px;
+    font-size: 26px;
+    line-height: 50px;
+    border-radius: 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+   
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#BCD3FF;
+}
+#maincontent{
+    position: absolute;
+    width: 1243px;
+    height: 592px;
+    top: 500px;
+}
+
+#uwilogo{
+    height:auto;
+    width:auto;
+    float: left;
+    margin: 0 auto; 
+    padding: 10px 10px;
+} 
+#uwilogo img{
+    object-fit:cover;
+    left: 200px;
+    top: 500px;
+    width: 130px;
+    height: 203px;
+}
+nav{   
+  min-height:280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:#BCD3FF;
+  overflow:hidden;
+  position: absolute;
+  width: 1240px;
+  height: 592px;
+}
+label.logo
+{
+  color: white;
+  font-size: 26px;
+  line-height: 50px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-transform:uppercase;
+  background:darkcyan;
+}
+nav ul{
+  float: center;
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 100px;
+  margin: 0px 10px;
+  
+}
+nav ul li a {
+  color: black;
+  font-size: 18px;
+  padding: 8px 8px;
+  border-radius: 5px;
+  text-transform:capitalize;
+  background: #E0EAFD;
+  transition: .1s; 
+
+}
+
+a:hover {
+  background-color:white;
+  border-radius: 5px;
+  padding: 8px 8px;
+  color:darkcyan
+}
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
